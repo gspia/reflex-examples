@@ -1,5 +1,10 @@
 # Revision history for reflex-examples
 
+## 2018-10-10
+
+* Update relfex-platform to allow ghc and ghcjs version 8.4's.
+* Updated the cabal files so that nix-shell cmd works.
+
 ## 2018-01-12
 
 * Update README

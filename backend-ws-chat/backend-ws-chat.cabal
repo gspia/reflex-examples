@@ -1,9 +1,9 @@
-Name:          backendwschat
+Name:          backend-ws-chat
 Version:       0.1.0.0
 Build-type:    Simple
 Cabal-version: >= 1.24
 
-executable backendwschat
+executable backend-ws-chat
   Hs-source-dirs: src
   Ghc-options:    -Wall
   Main-is:        server.hs

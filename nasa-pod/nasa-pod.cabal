@@ -1,18 +1,17 @@
-name:                wschat2
+name:                nasa-pod
 version:             0.1.0.0
 build-type:          Simple
 cabal-version:       >=1.10
 
-executable wschat2
+executable nasa-pod
   main-is:             Main.hs
   ghc-options:         -Wall -O2 -threaded -rtsopts -with-rtsopts=-N
   -- other-extensions:    
-  build-depends:       base >=4.9 && <4.11
-                     , commonwschat2
-                     , aeson
-                     , bytestring
-                     , containers
+  build-depends:       base >=4.9 
+                     -- , common -- we don't need common parts here
                      , text
+                     , containers
+                     , aeson
                      , ghcjs-dom
                      , reflex
                      , reflex-dom

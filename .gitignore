@@ -23,6 +23,7 @@ cabal-dev
 .DS_Store
 backend.pid
 backend.out
+.ghc.environment.*
 .shelly
 TAGS
 tags

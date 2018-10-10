@@ -1,17 +1,19 @@
-name:                nasapod
+name:                ws-chat
 version:             0.1.0.0
 build-type:          Simple
 cabal-version:       >=1.10
 
-executable nasapod
+executable ws-chat
   main-is:             Main.hs
   ghc-options:         -Wall -O2 -threaded -rtsopts -with-rtsopts=-N
   -- other-extensions:    
-  build-depends:       base >=4.9 && <4.11
+  build-depends:       base >=4.9 
                      -- , common -- we don't need common parts here
+                     -- , containers
+                     --, lens
                      , text
+                     , bytestring
                      , containers
-                     , aeson
                      , ghcjs-dom
                      , reflex
                      , reflex-dom

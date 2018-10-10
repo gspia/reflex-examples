@@ -58,7 +58,7 @@
   };
   tools = ghc: with ghc; [
     pkgs.haskellPackages.hlint
-    pkgs.haskellPackages.hdevtools
+    # pkgs.haskellPackages.hdevtools
     # pkgs.haskellPackages.ghc-mod
     # pkgs.haskellPackages.hasktags
     # pkgs.haskellPackages.haskdogs

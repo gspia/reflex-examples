@@ -1,5 +1,5 @@
-name:                ws-chat2
-version:             0.1.0.0
+name:                wschat2
+version:             0.1.0.1
 build-type:          Simple
 cabal-version:       >=1.10
 
@@ -7,7 +7,7 @@ executable ws-chat2
   main-is:             Main.hs
   ghc-options:         -Wall -O2 -threaded -rtsopts -with-rtsopts=-N
   -- other-extensions:    
-  build-depends:       base >=4.9 
+  build-depends:       base 
                      , common-ws-chat2
                      , aeson
                      , bytestring
